@@ -40,7 +40,15 @@ def check_stats() :
 	for row in cur.fetchall() :
 		dict.setdefault(row[0],[]).append(row[1])
 	if  dict['Max_used_connections'] > 0:
-		print dict['Max_used_connections'] 
+		max_used_connection=  dict['Max_used_connections'] 
+		print "The highest number of connections used", max_used_connection
+	if dict['Key_reads'] :
+		key_reads = dict['Key_reads'] 
+		print  "Number of read on the file system for indexes", key_reads
+		
+	if dict['Select_full_join'] > 0:
+		number_of_full_join = dict['Select_full_join']
+		print "Number of full join", number_of_full_join
 		
 		
 		
