@@ -2,51 +2,75 @@ __author__ = 'sype'
 
 
 import ConfigParser
-import commands, os, time
+import commands,os, time
 import gzip
 import glob
 
 Config = ConfigParser.ConfigParser()
 Config.read("/home/sype/PycharmProjects/backup_cluster/backup_config.ini")
+date = time.strftime("%d-%m-%Y")
+
 
 def ConfigSectionMap(section):
 
-    hostname = Config.get(section,'Hostname')
-    date = time.strftime("%d-%m-%Y")
-    ip = Config.get(section,'IP')
-    user = Config.get(section,'User')
-    passwd = Config.get(section, 'Password')
-    command = Config.get('BackupConfig','Command')
-    path = Config.get('BackupConfig','Path')
-    option = Config.get('BackupConfig','Option')
-    databases = Config.get(section,'Schemas')
-    backup_file = "{path}{hostname}-{date}.sql".format(path=str(path),
-                                                             hostname=str(hostname),
-                                                             date=str(date))
-    retention = Config.get('BackupConfig','Retention')
+    """
+
+    :param section:
+    :return:
+    """
+    if section != 'BackupConfig':
+        hostname = Config.get(section,'Hostname')
+        user = Config.get(section,'User')
+        passwd = Config.get(section, 'Password')
+        databases = Config.get(section,'Schemas')
+        ip = Config.get(section,'IP')
+        command = ''
+        option = ''
+        retention = ''
+        path = ''
+
+
+    else:
+
+        command = Config.get('BackupConfig','Command')
+        path = Config.get('BackupConfig','Path')
+        option = Config.get('BackupConfig','Option')
+        retention = Config.get('BackupConfig','Retention')
+        databases = ''
+        hostname = ''
+        user = ''
+        passwd = ''
+        ip = ''
+
     #backup_file = "{} {} str(date)+'.sql".format(str(path),str(hostname))
     #backup_file = "%s %s %s .sql" % (path, hostname)
-    return command, hostname, ip, passwd, user, path, option, databases, backup_file, retention
+    return command, hostname, ip, passwd, user, path, option, databases, retention
 
 
 
 
 
 def backup_node(node):
-
+    #selection du noeud a backuper
     if  node == 'node02':
         section = 'NodeTwo'
     else:
         section = 'NodeOne'
     param = ConfigSectionMap(section)
-    backed_file=param[8]
-    backup_exec = "{command} -h{host} -u{user} -p{passwd} {option} {databases} > {backed_file}".format(command=param[0],
+    config = ConfigSectionMap('BackupConfig')
+    backup_file = "{path}{hostname}-{date}.sql".format(path=config[5],
+                                                             hostname=param[1],
+                                                             date=str(date))
+    #debug
+    print backup_file
+    backed_file=backup_file
+    backup_exec = "{command} -h{host} -u{user} -p{passwd} {option} {databases} > {backed_file}".format(command=config[0],
                                                                                                   host=param[1],
                                                                                                   user=param[4],
                                                                                                   passwd=param[3],
-                                                                                                  option=param[6],
+                                                                                                  option=config[6],
                                                                                                   databases=param[7],
-                                                                                                 backed_file=param[8])
+                                                                                                 backed_file=backup_file)
 
 
 
@@ -79,7 +103,7 @@ def cleaner(retention):
                                                                         retention=str(retention),
                                                                         delete="-exec rm {} \;")
     suppression_archive = os.system(CMD)
-
+    #debug
     print CMD
 
     sql_file = glob.glob(path + '/*.sql')
@@ -92,6 +116,7 @@ def cleaner(retention):
         delete_error = "Error while erasing files"
     else:
         delete_error = "All archives create before {retention} days have been erased".format(retention=str(retention))
+    #debug
     print sql_file
     return delete_error
 
@@ -120,7 +145,7 @@ if __name__=='__main__':
 
     conf = ConfigSectionMap('NodeOne')
     status = backup_node('node01')
-    cleaner(20)
+    cleaner(2)
     print status[1]
 
 
