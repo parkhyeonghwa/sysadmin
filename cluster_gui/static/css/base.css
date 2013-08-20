@@ -1,0 +1,9 @@
+.niceform dl {clear:left;}
+
+.niceform dt {float:left;text-align:right;width:120px;line-height:25px;margin: 0 10px 10px 0;}
+
+.niceform dd {float:left;margin: 0 0 10px 0;}
+p {
+
+    color: #ff0b24;
+}
