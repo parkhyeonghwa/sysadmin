@@ -6,7 +6,9 @@ from django.conf.urls.defaults import patterns, include, url
 
 urlpatterns = patterns('',
     # Examples:
-     url(r'^$', 'landing.views.home', name='home'),
+     url(r'^$', 'landing.views.monitor_cluster', name='monitor_cluster'),
+
+
     # url(r'^cluster_gui/', include('cluster_gui.foo.urls')),
     #url(r'^cluster_gui/', include(landing.urls)),
 
