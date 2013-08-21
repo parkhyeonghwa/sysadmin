@@ -1,0 +1,26 @@
+{% extends 'base2.html' %}
+
+
+{% block titre %}Cluster health {% endblock %}
+
+{% block left_menu %}
+								<li class="first"><a href="#">Etat du cluster</a></li>
+								<li><a href="/information">Status</a></li>
+								<li><a href="#">Check log</a></li>
+								<li><a href="#">Informations systemes</a></li>
+							{% endblock %}
+
+
+{% block content %}
+						<div class="post">
+							<h2>Etat du cluster</h2>
+							<table class="tableau">
+                             <thead><a class="titre"> cluster parameter</a></thead>
+                              <tr></tr>
+                                {% for k,v in dict.iteritems %}
+                                 <tr class="{% cycle 'row1' 'row2' %}"> <td id="row_status">{{ k }}</td><td id="row_status">{{ v.0 }}</td></tr>
+
+                                 {% endfor %}
+                              </table>
+						</div>
+					</section>{% endblock %}

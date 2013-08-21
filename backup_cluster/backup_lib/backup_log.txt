@@ -1,0 +1,43 @@
+69MB
+Position du cluster 9512c851-d299-11e2-0800-1d56cac47eab
+
+Position du node 9512c851-d299-11e2-0800-1d56cac47eab
+069MB
+Position du cluster 9512c851-d299-11e2-0800-1d56cac47eab
+
+Position du node 9512c851-d299-11e2-0800-1d56cac47eab
+069MB
+Position du cluster 9512c851-d299-11e2-0800-1d56cac47eab
+
+Position du node 9512c851-d299-11e2-0800-1d56cac47eab
+069MB
+Position du cluster 9512c851-d299-11e2-0800-1d56cac47eab
+
+Position du node 9512c851-d299-11e2-0800-1d56cac47eab
+01376641479.651376641488.7269MB
+Position du cluster 9512c851-d299-11e2-0800-1d56cac47eab
+
+Position du node 9512c851-d299-11e2-0800-1d56cac47eab
+01376641612.581376641622.261376642357.79/home/sype/PycharmProjects/backup_cluster/backup_lib/iprod-db-au-03-16-08-2013.sql69MB1376642368.111376642406.7/home/sype/PycharmProjects/backup_cluster/backup_lib/iprod-db-au-03-16-08-2013.sql69MB1376642415.431376642581.75/home/sype/PycharmProjects/backup_cluster/backup_lib/iprod-db-au-03-16-08-2013.sql69MB1376642591.691376642856.26/home/sype/PycharmProjects/backup_cluster/backup_lib/iprod-db-au-03-16-08-2013.sql69MB1376642865.661376642914.09/home/sype/PycharmProjects/backup_cluster/backup_lib/iprod-db-au-03-16-08-2013.sql69MB1376642923.91376642996.64/home/sype/PycharmProjects/backup_cluster/backup_lib/iprod-db-au-03-16-08-2013.sql69MB1376643005.681376643080.62/home/sype/PycharmProjects/backup_cluster/backup_lib/iprod-db-au-03-16-08-2013.sql69MB1376643089.861376643137.03/home/sype/PycharmProjects/backup_cluster/backup_lib/iprod-db-au-03-16-08-2013.sql69MB1376643149.081376643255.82/home/sype/PycharmProjects/backup_cluster/backup_lib/iprod-db-au-03-16-08-2013.sql69MB1376643265.331376643278.59/home/sype/PycharmProjects/backup_cluster/backup_lib/iprod-db-au-03-16-08-2013.sql69MB1376643288.711376643313.08/home/sype/PycharmProjects/backup_cluster/backup_lib/iprod-db-au-03-16-08-2013.sql69MB1376643322.49
+Position du node 9512c851-d299-11e2-0800-1d56cac47eab
+69MB
+Position du cluster 9512c851-d299-11e2-0800-1d56cac47eab
+
+Position du node 9512c851-d299-11e2-0800-1d56cac47eab
+069MB
+Position du cluster 9512c851-d299-11e2-0800-1d56cac47eab
+
+Position du node 9512c851-d299-11e2-0800-1d56cac47eab
+069MB
+Position du cluster 9512c851-d299-11e2-0800-1d56cac47eab
+
+Position du node 9512c851-d299-11e2-0800-1d56cac47eab
+069MB
+Position du cluster 9512c851-d299-11e2-0800-1d56cac47eab
+
+Position du node 9512c851-d299-11e2-0800-1d56cac47eab
+069MB
+Position du cluster 9512c851-d299-11e2-0800-1d56cac47eab
+
+Position du node 9512c851-d299-11e2-0800-1d56cac47eab
+0

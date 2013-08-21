@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" media="all" href="{{ STATIC_URL }}css/base.css" />
+</head>
+<body>
+
+<table width="100%"  border="0">
+<tr>
+<td colspan="2" style="background-color:#FFA500;">
+<h1>Cluster Monitor</h1>
+</td>
+</tr>
+
+<tr>
+<td id="menu">
+<b>Menu</b><br>
+Nodes<br>
+Backup<br>
+configuration
+</td>
+<td id="content">
+<p>{{ cluster_name }}</p>
+<table>
+<center><thead>cluster parameter</thead></center>
+<tr></tr>
+    {% for k,v in dict.iteritems %}
+   <tr class="{% cycle 'row1' 'row2' %}"> <td>{{ k }}</td><td>{{ v.0 }}</td></tr>
+
+    {% endfor %}
+</table>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" style="background-color:#FFA500;text-align:center;">
+Copyright © W3Schools.com</td>
+</tr>
+</table>
+
+</body>
+</html>
