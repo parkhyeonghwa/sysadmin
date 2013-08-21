@@ -4,17 +4,17 @@
     <list default="true" id="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" name="Default" comment="" />
     <ignored path="cluster_gui.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/settings.py" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1376922173749" ignored="false" />
-    <file path="/urls.py" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377100234981" ignored="false" />
-    <file path="/test.html" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1376922085363" ignored="false" />
-    <file path="/views.py" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377099183375" ignored="false" />
-    <file path="/base.css" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377012971857" ignored="false" />
-    <file path="/landing.html" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377082989340" ignored="false" />
-    <file path="/base2.html" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377099955412" ignored="false" />
-    <file path="/style.css" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377092397958" ignored="false" />
-    <file path="/style-desktop.css" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377092129910" ignored="false" />
-    <file path="/style-mobile.css" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377081632633" ignored="false" />
     <file path="/cluster_state.html" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377099910609" ignored="false" />
+    <file path="/style-mobile.css" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377081632633" ignored="false" />
+    <file path="/style-desktop.css" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377092129910" ignored="false" />
+    <file path="/style.css" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377092397958" ignored="false" />
+    <file path="/base2.html" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377099955412" ignored="false" />
+    <file path="/landing.html" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377082989340" ignored="false" />
+    <file path="/base.css" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377012971857" ignored="false" />
+    <file path="/views.py" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377099183375" ignored="false" />
+    <file path="/test.html" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1376922085363" ignored="false" />
+    <file path="/urls.py" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377100234981" ignored="false" />
+    <file path="/settings.py" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1376922173749" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,37 +34,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="65" selection-start="568" selection-end="568" vertical-scroll-proportion="0.25096524">
+            <state line="12" column="44" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/landing/urls.py">
+        <entry file="file://$PROJECT_DIR$/information/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="40" selection-start="69" selection-end="157" vertical-scroll-proportion="-2.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="landing.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/landing.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="7" selection-start="34" selection-end="123" vertical-scroll-proportion="-1.875">
+            <state line="8" column="78" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -73,7 +55,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/landing/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="25" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0">
+            <state line="1" column="0" selection-start="26" selection-end="388" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#27#74#0" expanded="true" />
               </folding>
@@ -81,28 +63,48 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/information/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="0" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#23#70#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="information.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/information.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="12" selection-start="613" selection-end="613" vertical-scroll-proportion="-11.434783">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="landing_old.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/landing_old.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="9" selection-start="312" selection-end="312" vertical-scroll-proportion="-6.304348">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="base2.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="85" selection-start="2779" selection-end="2779" vertical-scroll-proportion="-14.693877">
+            <state line="86" column="48" selection-start="3190" selection-end="3190" vertical-scroll-proportion="-7.826087">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cluster_state.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/cluster_state.html">
+      <file leaf-file-name="landing.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/landing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="52" selection-start="411" selection-end="411" vertical-scroll-proportion="-9.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style-desktop.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/style-desktop.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="294" column="27" selection-start="4354" selection-end="4354" vertical-scroll-proportion="-19.88">
+            <state line="17" column="62" selection-start="514" selection-end="514" vertical-scroll-proportion="0.6929348">
               <folding />
             </state>
           </provider>
@@ -117,10 +119,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/base.css">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/landing/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="29" selection-start="443" selection-end="446" vertical-scroll-proportion="0.0">
+            <state line="9" column="0" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -139,23 +141,25 @@
         <option value="$PROJECT_DIR$/templates/test.html" />
         <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/static/css/style-mobile.css" />
-        <option value="$PROJECT_DIR$/templates/landing.html" />
         <option value="$PROJECT_DIR$/static/css/base.css" />
         <option value="$PROJECT_DIR$/static/css/style-desktop.css" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/landing/urls.py" />
-        <option value="$PROJECT_DIR$/landing/views.py" />
-        <option value="$PROJECT_DIR$/templates/cluster_state.html" />
-        <option value="$PROJECT_DIR$/templates/base2.html" />
         <option value="$PROJECT_DIR$/urls.py" />
+        <option value="$PROJECT_DIR$/landing/views.py" />
+        <option value="$PROJECT_DIR$/information/views.py" />
+        <option value="$PROJECT_DIR$/information/urls.py" />
+        <option value="$PROJECT_DIR$/templates/base2.html" />
+        <option value="$PROJECT_DIR$/templates/cluster_state.html" />
+        <option value="$PROJECT_DIR$/templates/information.html" />
+        <option value="$PROJECT_DIR$/templates/landing.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-4" />
-    <option name="width" value="1537" />
-    <option name="height" value="1205" />
+    <option name="y" value="27" />
+    <option name="width" value="1600" />
+    <option name="height" value="749" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -212,6 +216,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cluster_gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cluster_gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="landing" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -241,6 +259,12 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="dynamic.classpath" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/information" />
+    </key>
+  </component>
   <component name="RunManager" selected="Django server.cluster_gui">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -251,12 +275,30 @@
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="cluster_gui" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
+      <option name="MULTIPROCESS" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="cluster_gui" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
@@ -268,8 +310,6 @@
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="cluster_gui" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
@@ -282,29 +322,6 @@
       <option name="customRunCommand" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="cluster_gui" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -312,8 +329,6 @@
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="cluster_gui" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
@@ -355,8 +370,6 @@
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="cluster_gui" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
@@ -385,18 +398,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1537" height="1205" extended-state="6" />
+    <frame x="0" y="27" width="1600" height="749" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34721288" sideWeight="0.7795648" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35297927" sideWeight="0.7785467" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22043519" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2214533" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -433,20 +446,13 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
-    <option name="LIMIT_HISTORY" value="true" />
-    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
@@ -460,7 +466,6 @@
     <option name="ACTIVE_VCS_NAME" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
@@ -468,39 +473,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/css/5grid/mobileUI-flat.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.023166023">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/5grid/html5shiv.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/5grid/init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-8.776178">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/5grid/core.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="1147" selection-end="1147" vertical-scroll-proportion="-1.0063695">
-          <folding />
-        </state>
+        <state line="21" column="0" selection-start="1147" selection-end="1147" vertical-scroll-proportion="-1.0063695" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/style-1000px.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/base.css">
@@ -512,21 +492,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="40" selection-start="69" selection-end="157" vertical-scroll-proportion="-2.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/landing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="7" selection-start="34" selection-end="123" vertical-scroll-proportion="-1.875">
+        <state line="4" column="40" selection-start="69" selection-end="157" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/style-desktop.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="294" column="27" selection-start="4354" selection-end="4354" vertical-scroll-proportion="-19.88">
+        <state line="294" column="27" selection-start="4354" selection-end="4354" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -552,9 +525,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="44" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="78" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#23#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/landing/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="25" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="26" selection-end="388" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#27#74#0" expanded="true" />
           </folding>
@@ -563,21 +559,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="85" selection-start="2779" selection-end="2779" vertical-scroll-proportion="-14.693877">
+        <state line="86" column="48" selection-start="3190" selection-end="3190" vertical-scroll-proportion="-7.826087">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cluster_state.html">
+    <entry file="file://$PROJECT_DIR$/templates/information.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="52" selection-start="411" selection-end="411" vertical-scroll-proportion="-9.375">
+        <state line="20" column="12" selection-start="613" selection-end="613" vertical-scroll-proportion="-11.434783">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/landing_old.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="65" selection-start="568" selection-end="568" vertical-scroll-proportion="0.25096524">
+        <state line="17" column="9" selection-start="312" selection-end="312" vertical-scroll-proportion="-6.304348">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/landing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="62" selection-start="514" selection-end="514" vertical-scroll-proportion="0.6929348">
           <folding />
         </state>
       </provider>
