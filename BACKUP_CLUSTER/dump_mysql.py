@@ -46,11 +46,14 @@ def ConfigSectionMap(section):
         option = Config.get('BackupConfig', 'Option')
         retention = Config.get('BackupConfig', 'Retention')
         log = Config.get('BackupConfig', 'Log')
-        databases = ''
+        user = Config.get('BackupConfig','User')
+        passwd = Config.get('BackupConfig', 'Password')
+        databases = Config.get(section, 'Schemas')
         hostname = ''
         user = ''
         passwd = ''
         ip = ''
+
 
 
     return command, hostname, ip, passwd, user, path, option, databases, retention, log
@@ -235,6 +238,8 @@ def pack_log(HOST):
         FILE_GZ_FULL = gz.write(LOG)
         gz.close()
     print FILE_GZ
+
+
 
 
 

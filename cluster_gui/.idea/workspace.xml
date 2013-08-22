@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aaff08ef-5116-44c5-8697-a88bf1d4cb85" name="Default" comment="" />
-    <ignored path="BACKUP_CLUSTER.iws" />
+    <list default="true" id="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" name="Default" comment="" />
+    <ignored path="cluster_gui.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/config_loader.py" changelist="aaff08ef-5116-44c5-8697-a88bf1d4cb85" time="1376913234664" ignored="false" />
-    <file path="/Python Console" changelist="aaff08ef-5116-44c5-8697-a88bf1d4cb85" time="1376641791530" ignored="false" />
-    <file path="/backup_config.ini" changelist="aaff08ef-5116-44c5-8697-a88bf1d4cb85" time="1377175634600" ignored="false" />
-    <file path="/dump_mysql.py" changelist="aaff08ef-5116-44c5-8697-a88bf1d4cb85" time="1377176377078" ignored="false" />
-    <file path="/Dummy.txt" changelist="aaff08ef-5116-44c5-8697-a88bf1d4cb85" time="1377177048045" ignored="false" />
+    <file path="/settings.py" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1376922173749" ignored="false" />
+    <file path="/urls.py" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377186000670" ignored="false" />
+    <file path="/test.html" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1376922085363" ignored="false" />
+    <file path="/views.py" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377185956987" ignored="false" />
+    <file path="/base.css" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377012971857" ignored="false" />
+    <file path="/landing.html" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377082989340" ignored="false" />
+    <file path="/base2.html" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377099955412" ignored="false" />
+    <file path="/style.css" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377092397958" ignored="false" />
+    <file path="/style-desktop.css" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377185892626" ignored="false" />
+    <file path="/style-mobile.css" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377081632633" ignored="false" />
+    <file path="/cluster_state.html" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377099910609" ignored="false" />
+    <file path="/information.html" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377181270884" ignored="false" />
+    <file path="/backup.html" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377185815810" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,32 +32,79 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="BACKUP_CLUSTER" />
+    <favorites_list name="cluster_gui" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dump_mysql.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dump_mysql.py">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="246" column="26" selection-start="6983" selection-end="6983" vertical-scroll-proportion="0.62172645">
+            <state line="12" column="41" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="back_log.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backup/back_log.txt">
+      <file leaf-file-name="backup.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/backup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="326" column="57" selection-start="13913" selection-end="13913" vertical-scroll-proportion="0.0">
+            <state line="16" column="55" selection-start="413" selection-end="413" vertical-scroll-proportion="0.23833168">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="backup_config.ini" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backup_config.ini">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backup/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="14" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
+            <state line="46" column="0" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#23#80#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="landing.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/landing.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="41" selection-start="593" selection-end="800" vertical-scroll-proportion="-12.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base2.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="145" column="50" selection-start="4905" selection-end="4905" vertical-scroll-proportion="-13.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/landing/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="27" selection-start="429" selection-end="1131" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style-desktop.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/style-desktop.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="320" column="30" selection-start="4888" selection-end="4888" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="113" column="0" selection-start="2062" selection-end="2062" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -62,18 +117,25 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
-  <component name="GitLogSettings">
-    <option name="myDateState">
-      <MyDateState />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/backup_lib/back_log.txt" />
-        <option value="$PROJECT_DIR$/backup_lib/config_loader.py" />
-        <option value="$PROJECT_DIR$/backup_config.ini" />
-        <option value="$PROJECT_DIR$/dump_mysql.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/static/css/style-mobile.css" />
+        <option value="$PROJECT_DIR$/templates/landing.html" />
+        <option value="$PROJECT_DIR$/static/css/base.css" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/landing/urls.py" />
+        <option value="$PROJECT_DIR$/templates/cluster_state.html" />
+        <option value="$PROJECT_DIR$/information/urls.py" />
+        <option value="$PROJECT_DIR$/templates/base2.html" />
+        <option value="$PROJECT_DIR$/templates/information.html" />
+        <option value="$PROJECT_DIR$/landing/views.py" />
+        <option value="$PROJECT_DIR$/information/views.py" />
+        <option value="$PROJECT_DIR$/static/css/style-desktop.css" />
+        <option value="$PROJECT_DIR$/urls.py" />
+        <option value="$PROJECT_DIR$/backup/views.py" />
+        <option value="$PROJECT_DIR$/templates/backup.html" />
       </list>
     </option>
   </component>
@@ -114,27 +176,55 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BACKUP_CLUSTER" />
+              <option name="myItemId" value="cluster_gui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BACKUP_CLUSTER" />
+              <option name="myItemId" value="cluster_gui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BACKUP_CLUSTER" />
+              <option name="myItemId" value="cluster_gui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BACKUP_CLUSTER" />
+              <option name="myItemId" value="cluster_gui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BACKUP_CLUSTER" />
+              <option name="myItemId" value="cluster_gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cluster_gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cluster_gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cluster_gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cluster_gui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -149,41 +239,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="/media/sf_Mydocs" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <PyConsoleSettings />
-    </option>
-    <option name="myDjangoConsoleState">
-      <PyConsoleSettings />
-    </option>
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Python.dump_mysql">
-    <configuration default="false" name="dump_mysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backup_lib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="BACKUP_CLUSTER" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dump_mysql.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Django server.cluster_gui">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -195,10 +255,33 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="BACKUP_CLUSTER" />
+      <module name="cluster_gui" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cluster_gui" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -210,7 +293,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="BACKUP_CLUSTER" />
+      <module name="cluster_gui" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -233,7 +316,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="BACKUP_CLUSTER" />
+      <module name="cluster_gui" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -244,14 +327,55 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <configuration default="false" name="cluster_gui" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cluster_gui" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Python.dump_mysql" />
+      <item index="0" class="java.lang.String" itemvalue="Django server.cluster_gui" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.dump_mysql" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
@@ -273,9 +397,9 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="aaff08ef-5116-44c5-8697-a88bf1d4cb85" name="Default" comment="" />
-      <created>1376640432357</created>
-      <updated>1376640432357</updated>
+      <changelist id="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" name="Default" comment="" />
+      <created>1376917899327</created>
+      <updated>1376917899327</updated>
     </task>
     <servers />
   </component>
@@ -285,18 +409,18 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923368" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24983211" sideWeight="0.6707663" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26326394" sideWeight="0.6717124" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36803225" sideWeight="0.6707663" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282876" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21948913" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -363,93 +487,108 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dump_mysql.py">
+    <entry file="file://$PROJECT_DIR$/static/css/5grid/init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-8.776178" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/5grid/core.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="1147" selection-end="1147" vertical-scroll-proportion="-1.0063695" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style-1000px.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="29" selection-start="443" selection-end="446" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backup/back_log.txt">
+    <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="94" column="48" selection-start="3602" selection-end="3602" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="73" selection-start="201" selection-end="201" vertical-scroll-proportion="0.15424165">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backup_config.ini">
+    <entry file="file://$PROJECT_DIR$/templates/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
+        <state line="4" column="40" selection-start="69" selection-end="157" vertical-scroll-proportion="0.077419356">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dump_mysql.py">
+    <entry file="file://$PROJECT_DIR$/backup/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="8" column="23" selection-start="151" selection-end="151" vertical-scroll-proportion="0.15018773">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backup/back_log.txt">
+    <entry file="file://$PROJECT_DIR$/templates/base2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="57" selection-start="5543" selection-end="5543" vertical-scroll-proportion="0.0">
+        <state line="145" column="50" selection-start="4905" selection-end="4905" vertical-scroll-proportion="-13.625">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backup_config.ini">
+    <entry file="file://$PROJECT_DIR$/templates/landing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="21" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
+        <state line="20" column="41" selection-start="593" selection-end="800" vertical-scroll-proportion="-12.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dump_mysql.py">
+    <entry file="file://$PROJECT_DIR$/landing/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="41" selection-start="3479" selection-end="3479" vertical-scroll-proportion="0.0">
+        <state line="23" column="27" selection-start="429" selection-end="1131" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backup/back_log.txt">
+    <entry file="file://$PROJECT_DIR$/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="0" selection-start="3580" selection-end="3580" vertical-scroll-proportion="0.0">
+        <state line="12" column="41" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backup_config.ini">
+    <entry file="file://$PROJECT_DIR$/static/css/style-desktop.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="23" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+        <state line="320" column="30" selection-start="4888" selection-end="4888" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dump_mysql.py">
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="113" column="0" selection-start="2062" selection-end="2062" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backup/back_log.txt">
+    <entry file="file://$PROJECT_DIR$/backup/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="326" column="57" selection-start="13913" selection-end="13913" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="46" column="0" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#23#80#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backup_config.ini">
+    <entry file="file://$PROJECT_DIR$/templates/backup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="14" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dump_mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="246" column="26" selection-start="6983" selection-end="6983" vertical-scroll-proportion="0.62172645">
+        <state line="16" column="55" selection-start="413" selection-end="413" vertical-scroll-proportion="0.23833168">
           <folding />
         </state>
       </provider>
