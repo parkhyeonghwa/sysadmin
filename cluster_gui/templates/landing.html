@@ -1,42 +1,26 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" type="text/css" media="all" href="{{ STATIC_URL }}css/base.css" />
-</head>
-<body>
+{% extends 'base2.html' %}
 
-<table width="100%"  border="0">
-<tr>
-<td colspan="2" style="background-color:#FFA500;">
-<h1>Cluster Monitor</h1>
-</td>
-</tr>
 
-<tr>
-<td id="menu">
-<b>Menu</b><br>
-Nodes<br>
-Backup<br>
-configuration
-</td>
-<td id="content">
-<p>{{ cluster_name }}</p>
-<table>
-<center><thead>cluster parameter</thead></center>
-<tr></tr>
-    {% for k,v in dict.iteritems %}
-   <tr class="{% cycle 'row1' 'row2' %}"> <td>{{ k }}</td><td>{{ v.0 }}</td></tr>
+{% block titre %}Cluster health {% endblock %}
 
-    {% endfor %}
-</table>
-</td>
-</tr>
+{% block left_menu %}
+								<li class="first"><a href="#">Etat du cluster</a></li>
+								<li><a href="/information">Status</a></li>
+								<li><a href="#">Check log</a></li>
+								<li><a href="#">Informations systemes</a></li>
+							{% endblock %}
 
-<tr>
-<td colspan="2" style="background-color:#FFA500;text-align:center;">
-Copyright © W3Schools.com</td>
-</tr>
-</table>
 
-</body>
-</html>
+{% block content %}<section>
+						<div class="post">
+							<h2>Etat du cluster</h2>
+							<table class="tableau">
+                             <thead><a class="titre"> cluster </a></thead>
+                              <tr></tr>
+                                {% for k,v in dict.iteritems %}
+                                 <tr class="{% cycle 'row1' 'row2' %}"> <td>{{ k }}</td><td id="row_status">{{ v.0 }}</td></tr>
+
+                                 {% endfor %}
+                              </table>
+						</div>
+					</section>{% endblock %}
