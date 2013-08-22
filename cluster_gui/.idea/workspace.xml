@@ -37,7 +37,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="65" selection-start="568" selection-end="568" vertical-scroll-proportion="0.25096524">
+            <state line="13" column="65" selection-start="568" selection-end="568" vertical-scroll-proportion="0.19306931">
               <folding />
             </state>
           </provider>
@@ -55,7 +55,7 @@
       <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="40" selection-start="69" selection-end="157" vertical-scroll-proportion="-2.5">
+            <state line="4" column="40" selection-start="69" selection-end="157" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -64,7 +64,7 @@
       <file leaf-file-name="landing.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/landing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="7" selection-start="34" selection-end="123" vertical-scroll-proportion="-1.875">
+            <state line="3" column="7" selection-start="34" selection-end="123" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -74,9 +74,7 @@
         <entry file="file://$PROJECT_DIR$/landing/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="43" column="25" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#27#74#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,7 +82,7 @@
       <file leaf-file-name="base2.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="85" selection-start="2779" selection-end="2779" vertical-scroll-proportion="-14.693877">
+            <state line="75" column="85" selection-start="2779" selection-end="2779" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -93,7 +91,7 @@
       <file leaf-file-name="cluster_state.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/cluster_state.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="52" selection-start="411" selection-end="411" vertical-scroll-proportion="-9.375">
+            <state line="15" column="52" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -102,7 +100,7 @@
       <file leaf-file-name="style-desktop.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/style-desktop.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="294" column="27" selection-start="4354" selection-end="4354" vertical-scroll-proportion="-19.88">
+            <state line="294" column="27" selection-start="4354" selection-end="4354" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -386,17 +384,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1537" height="1205" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34721288" sideWeight="0.7795648" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36803225" sideWeight="0.7805109" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22043519" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21948913" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -470,37 +468,27 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/static/css/5grid/mobileUI-flat.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.023166023">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.023166023" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/5grid/html5shiv.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/5grid/init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-8.776178">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-8.776178" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/5grid/core.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="1147" selection-end="1147" vertical-scroll-proportion="-1.0063695">
-          <folding />
-        </state>
+        <state line="21" column="0" selection-start="1147" selection-end="1147" vertical-scroll-proportion="-1.0063695" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/style-1000px.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/base.css">
@@ -512,21 +500,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="40" selection-start="69" selection-end="157" vertical-scroll-proportion="-2.5">
+        <state line="4" column="40" selection-start="69" selection-end="157" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/landing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="7" selection-start="34" selection-end="123" vertical-scroll-proportion="-1.875">
+        <state line="3" column="7" selection-start="34" selection-end="123" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/style-desktop.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="294" column="27" selection-start="4354" selection-end="4354" vertical-scroll-proportion="-19.88">
+        <state line="294" column="27" selection-start="4354" selection-end="4354" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -540,9 +528,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="48" selection-start="3602" selection-end="3602" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="94" column="48" selection-start="3602" selection-end="3602" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/landing/urls.py">
@@ -555,29 +541,27 @@
     <entry file="file://$PROJECT_DIR$/landing/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="25" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#27#74#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="85" selection-start="2779" selection-end="2779" vertical-scroll-proportion="-14.693877">
+        <state line="75" column="85" selection-start="2779" selection-end="2779" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/cluster_state.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="52" selection-start="411" selection-end="411" vertical-scroll-proportion="-9.375">
+        <state line="15" column="52" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="65" selection-start="568" selection-end="568" vertical-scroll-proportion="0.25096524">
+        <state line="13" column="65" selection-start="568" selection-end="568" vertical-scroll-proportion="0.19306931">
           <folding />
         </state>
       </provider>
