@@ -5,6 +5,8 @@ __author__ = 'sype'
 from django.shortcuts import render_to_response, redirect
 from django.template import RequestContext
 from django.http import HttpResponse
+from django.forms.widgets import RadioSelect
+from django.forms.fields import ChoiceField
 from  django import forms
 import MySQLdb
 
@@ -14,10 +16,12 @@ db = MySQLdb.connect(host="10.7.20.3", # your host, usually localhost
     passwd="Seb4sB9oXx", # your password
     db="information_schema") # name of the data base
 
+NODE_CHOICE = ('node01','node02')
+
 
 
 class BackupForm(forms.Form):
-    hostname = forms.CharField()
+    hostname = ChoiceField(widget=RadioSelect, choices= NODE_CHOICE)
     emplacement = forms.CharField()
     schema = forms.CharField()
 
@@ -30,12 +34,12 @@ def backup(request):
             hostname = form.cleaned_data['hostname']
             emplacement = form.cleaned_data['emplacement']
             schema = form.cleaned_data['schema']
-
+            #backup_exe(node)
             return  redirect('succes')
 
 
     else:
-            form = BackupForm()
+        form = BackupForm()
 
     return  render_to_response('backup.html', {'form': form}, context_instance=RequestContext(request))
 
