@@ -40,4 +40,16 @@ Position du node 9512c851-d299-11e2-0800-1d56cac47eab
 Position du cluster 9512c851-d299-11e2-0800-1d56cac47eab
 
 Position du node 9512c851-d299-11e2-0800-1d56cac47eab
-0
+00MB
+Position du cluster 9512c851-d299-11e2-0800-1d56cac47eab
+
+Position du node 9512c851-d299-11e2-0800-1d56cac47eab
+5120MB
+Position du cluster 9512c851-d299-11e2-0800-1d56cac47eab
+
+Position du node 9512c851-d299-11e2-0800-1d56cac47eab
+5120MB
+Position du cluster 9512c851-d299-11e2-0800-1d56cac47eab
+
+Position du node 9512c851-d299-11e2-0800-1d56cac47eab
+512

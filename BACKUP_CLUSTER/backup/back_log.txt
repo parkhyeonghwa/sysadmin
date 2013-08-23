@@ -331,3 +331,83 @@ Position du node: 9512c851-d299-11e2-0800-1d56cac47eab
      
 #########################################################
 ---------------------------------------------------------
+#########################################################
+###  BACKUP IPROD-DB-AU-03                        
+###  DAY ---> Friday                               
+###  DATE 23-08-2013                                  
+###  TAILLE du dump 0MB               
+### Debut du backup 15:11:17                                 
+### Fin du backup 15:11:17                                   
+### INFORMATION DU CLUSTER                                  
+
+Position du cluster: 9512c851-d299-11e2-0800-1d56cac47eab
+     
+
+Position du node: 9512c851-d299-11e2-0800-1d56cac47eab
+     
+#########################################################
+---------------------------------------------------------
+#########################################################
+###  BACKUP IPROD-DB-AU-03                        
+###  DAY ---> Friday                               
+###  DATE 23-08-2013                                  
+###  TAILLE du dump 0MB               
+### Debut du backup 15:12:55                                 
+### Fin du backup 15:12:55                                   
+### INFORMATION DU CLUSTER                                  
+
+Position du cluster: 9512c851-d299-11e2-0800-1d56cac47eab
+     
+
+Position du node: 9512c851-d299-11e2-0800-1d56cac47eab
+     
+#########################################################
+---------------------------------------------------------
+#########################################################
+###  BACKUP IPROD-DB-AU-03                        
+###  DAY ---> Friday                               
+###  DATE 23-08-2013                                  
+###  TAILLE du dump 0MB               
+### Debut du backup 15:31:22                                 
+### Fin du backup 15:31:22                                   
+### INFORMATION DU CLUSTER                                  
+
+Position du cluster: 9512c851-d299-11e2-0800-1d56cac47eab
+     
+
+Position du node: 9512c851-d299-11e2-0800-1d56cac47eab
+     
+#########################################################
+---------------------------------------------------------
+#########################################################
+###  BACKUP IPROD-DB-AU-03                        
+###  DAY ---> Friday                               
+###  DATE 23-08-2013                                  
+###  TAILLE du dump 0MB               
+### Debut du backup 15:33:17                                 
+### Fin du backup 15:33:17                                   
+### INFORMATION DU CLUSTER                                  
+
+Position du cluster: 9512c851-d299-11e2-0800-1d56cac47eab
+     
+
+Position du node: 9512c851-d299-11e2-0800-1d56cac47eab
+     
+#########################################################
+---------------------------------------------------------
+#########################################################
+###  BACKUP IPROD-DB-AU-03                        
+###  DAY ---> Friday                               
+###  DATE 23-08-2013                                  
+###  TAILLE du dump 0MB               
+### Debut du backup 16:03:12                                 
+### Fin du backup 16:03:12                                   
+### INFORMATION DU CLUSTER                                  
+
+Position du cluster: 9512c851-d299-11e2-0800-1d56cac47eab
+     
+
+Position du node: 9512c851-d299-11e2-0800-1d56cac47eab
+     
+#########################################################
+---------------------------------------------------------

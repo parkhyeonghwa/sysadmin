@@ -8,9 +8,10 @@ urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'cluster_gui.views.home', name='home'),
     # url(r'^cluster_gui/', include('cluster_gui.foo.urls')),
-    url(r'^$', include('landing.urls')),
-    url(r'^status', 'landing.views.home', name='home'),
-    url(r'^$', include('information.urls')),
+    url(r'^$', include('status.urls')),
+    url(r'^status/', 'status.views.monitor_cluster', name='monitor_cluster'),
+    url(r'^backup/', 'backup.views.backup', name='backup'),
+    url(r'^backup/success', 'backup.views.success', name='success'),
     # a deplavcer les deux dernieres dans leur package respectifs
 
     # Uncomment the admin/doc line below to enable admin documentation:

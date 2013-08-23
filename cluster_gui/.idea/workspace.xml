@@ -5,18 +5,21 @@
     <ignored path="cluster_gui.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/settings.py" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1376922173749" ignored="false" />
-    <file path="/urls.py" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377186000670" ignored="false" />
+    <file path="/urls.py" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377261334193" ignored="false" />
     <file path="/test.html" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1376922085363" ignored="false" />
-    <file path="/views.py" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377185956987" ignored="false" />
-    <file path="/base.css" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377012971857" ignored="false" />
-    <file path="/landing.html" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377082989340" ignored="false" />
+    <file path="/views.py" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377272640440" ignored="false" />
+    <file path="/base.css" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377270365878" ignored="false" />
+    <file path="/landing.html" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377272711473" ignored="false" />
     <file path="/base2.html" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377099955412" ignored="false" />
     <file path="/style.css" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377092397958" ignored="false" />
-    <file path="/style-desktop.css" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377185892626" ignored="false" />
+    <file path="/style-desktop.css" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377270642492" ignored="false" />
     <file path="/style-mobile.css" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377081632633" ignored="false" />
     <file path="/cluster_state.html" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377099910609" ignored="false" />
     <file path="/information.html" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377181270884" ignored="false" />
-    <file path="/backup.html" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377185815810" ignored="false" />
+    <file path="/backup.html" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377262200162" ignored="false" />
+    <file path="/dump_mysql.py" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377267395752" ignored="false" />
+    <file path="/Python Console" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377264934054" ignored="false" />
+    <file path="/backup_config.ini" changelist="6d201317-8dbc-4b9d-8d7b-84e4bc48ed4f" time="1377266757314" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,36 +42,16 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="41" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
+            <state line="11" column="74" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="backup.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/backup.html">
+      <file leaf-file-name="backup_config.ini" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/conf/backup_config.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="55" selection-start="413" selection-end="413" vertical-scroll-proportion="0.23833168">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backup/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="0" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#23#80#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="landing.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/landing.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="41" selection-start="593" selection-end="800" vertical-scroll-proportion="-12.5">
+            <state line="36" column="62" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -77,16 +60,36 @@
       <file leaf-file-name="base2.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="145" column="50" selection-start="4905" selection-end="4905" vertical-scroll-proportion="-13.625">
+            <state line="145" column="50" selection-start="4905" selection-end="4905" vertical-scroll-proportion="-90.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/landing/views.py">
+      <file leaf-file-name="dump_mysql.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clusterlib/dump_mysql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="27" selection-start="429" selection-end="1131" vertical-scroll-proportion="0.0">
+            <state line="14" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#21#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/status/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="0" selection-start="842" selection-end="842" vertical-scroll-proportion="0.3928225">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="landing.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/landing.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="54" selection-start="771" selection-end="771" vertical-scroll-proportion="-13.75">
               <folding />
             </state>
           </provider>
@@ -95,16 +98,16 @@
       <file leaf-file-name="style-desktop.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/style-desktop.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="320" column="30" selection-start="4888" selection-end="4888" vertical-scroll-proportion="0.0">
+            <state line="288" column="23" selection-start="4270" selection-end="4278" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="0" selection-start="2062" selection-end="2062" vertical-scroll-proportion="0.0">
+            <state line="25" column="22" selection-start="391" selection-end="398" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -120,22 +123,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/settings.py" />
-        <option value="$PROJECT_DIR$/static/css/style-mobile.css" />
-        <option value="$PROJECT_DIR$/templates/landing.html" />
-        <option value="$PROJECT_DIR$/static/css/base.css" />
-        <option value="$PROJECT_DIR$/static/css/style.css" />
-        <option value="$PROJECT_DIR$/landing/urls.py" />
-        <option value="$PROJECT_DIR$/templates/cluster_state.html" />
         <option value="$PROJECT_DIR$/information/urls.py" />
         <option value="$PROJECT_DIR$/templates/base2.html" />
         <option value="$PROJECT_DIR$/templates/information.html" />
         <option value="$PROJECT_DIR$/landing/views.py" />
         <option value="$PROJECT_DIR$/information/views.py" />
-        <option value="$PROJECT_DIR$/static/css/style-desktop.css" />
-        <option value="$PROJECT_DIR$/urls.py" />
-        <option value="$PROJECT_DIR$/backup/views.py" />
+        <option value="$PROJECT_DIR$/clusterlib/backup_config.ini" />
         <option value="$PROJECT_DIR$/templates/backup.html" />
+        <option value="$PROJECT_DIR$/clusterlib/__init__.py" />
+        <option value="$PROJECT_DIR$/static/conf/backup_config.ini" />
+        <option value="$PROJECT_DIR$/backup/views.py" />
+        <option value="$PROJECT_DIR$/clusterlib/dump_mysql.py" />
+        <option value="$PROJECT_DIR$/urls.py" />
+        <option value="$PROJECT_DIR$/static/css/base.css" />
+        <option value="$PROJECT_DIR$/static/css/style-desktop.css" />
+        <option value="$PROJECT_DIR$/status/views.py" />
+        <option value="$PROJECT_DIR$/templates/landing.html" />
       </list>
     </option>
   </component>
@@ -200,7 +203,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="status" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -214,7 +217,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="landing" />
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -228,7 +231,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="backup" />
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -239,9 +246,22 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="/media/sf_Mydocs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/conf" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <PyConsoleSettings />
+    </option>
+    <option name="myDjangoConsoleState">
+      <PyConsoleSettings />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/conf" />
+    </key>
   </component>
   <component name="RunManager" selected="Django server.cluster_gui">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -259,29 +279,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="cluster_gui" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -305,6 +302,29 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cluster_gui" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -412,7 +432,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923368" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36803225" sideWeight="0.6707663" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37340498" sideWeight="0.6707663" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -487,85 +507,19 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/css/5grid/init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-8.776178" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/5grid/core.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="1147" selection-end="1147" vertical-scroll-proportion="-1.0063695" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/style-1000px.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="29" selection-start="443" selection-end="446" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="94" column="48" selection-start="3602" selection-end="3602" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/landing/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="73" selection-start="201" selection-end="201" vertical-scroll-proportion="0.15424165">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="40" selection-start="69" selection-end="157" vertical-scroll-proportion="0.077419356">
-          <folding />
-        </state>
+        <state line="4" column="40" selection-start="69" selection-end="157" vertical-scroll-proportion="0.077419356" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backup/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="23" selection-start="151" selection-end="151" vertical-scroll-proportion="0.15018773">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="50" selection-start="4905" selection-end="4905" vertical-scroll-proportion="-13.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/landing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="41" selection-start="593" selection-end="800" vertical-scroll-proportion="-12.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/landing/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="27" selection-start="429" selection-end="1131" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="41" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/style-desktop.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="320" column="30" selection-start="4888" selection-end="4888" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -577,18 +531,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/conf/backup_config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="62" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/status/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="72" selection-start="200" selection-end="200" vertical-scroll-proportion="0.11881188">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backup/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0">
+        <state line="41" column="0" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.61685055">
           <folding>
             <element signature="e#23#80#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/clusterlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/backup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="55" selection-start="413" selection-end="413" vertical-scroll-proportion="0.23833168">
+        <state line="18" column="55" selection-start="449" selection-end="449" vertical-scroll-proportion="0.26812315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="22" selection-start="391" selection-end="398" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style-desktop.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="288" column="23" selection-start="4270" selection-end="4278" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clusterlib/dump_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#21#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/landing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="54" selection-start="771" selection-end="771" vertical-scroll-proportion="-13.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="74" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="50" selection-start="4905" selection-end="4905" vertical-scroll-proportion="-90.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/status/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="842" selection-end="842" vertical-scroll-proportion="0.3928225">
           <folding />
         </state>
       </provider>

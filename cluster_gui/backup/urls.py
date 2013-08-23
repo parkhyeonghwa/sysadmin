@@ -10,7 +10,7 @@ urlpatterns = patterns('',
 
 
     # url(r'^cluster_gui/', include('cluster_gui.foo.urls')),
-    #url(r'^cluster_gui/', include(landing.urls)),
+    #url(r'^cluster_gui/', include(status.urls)),
 
     # Uncomment the admin/doc line below to enable admin documentation:
 

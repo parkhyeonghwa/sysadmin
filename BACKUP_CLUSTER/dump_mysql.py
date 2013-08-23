@@ -246,8 +246,8 @@ def pack_log(HOST):
 
 if __name__ == '__main__':
 
-    conf = ConfigSectionMap(str(sys.argv[1]))
-    status = backup_node(str(sys.argv[1]))
+    conf = ConfigSectionMap('node01')
+    status = backup_node('node01')
     cleaner()
 
 
