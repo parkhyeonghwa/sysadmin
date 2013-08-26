@@ -13,22 +13,22 @@
 
 {% block content %}<section>
 						<div class="post">
-							<h2>Etat du cluster</h2>
-                            <p>{{ listing.1.0 }}</p>
-                        <p>{{ message }}</p>
-                        <p>{{ cluster_uid_val }}</p>
-                        <p>{{ local_state }}</p>
-                        <p>{{ local_state_val }}</p>
-                        <p> {{ local_comment }}</p>
-                        <p> {{ local_comment_val }}</p>
+							<h2 align="center" ><a>Etat du cluster</a></h2>
+                            <h3><p align="center">Parametres clés</p></h3>
+                            <br></br>
+                            <br></br>
+                            <br></br>
 
 							<table class="tableau">
-                             <thead><a class="titre"> cluster </a></thead>
+                             <thead></thead>
                               <tr></tr>
-                                {% for k,v in dict.iteritems %}
-                                 <tr class="{% cycle 'row1' 'row2' %}"> <td  id="row_status">{{ k }}</td><td id="row_status">{{ v.0 }}</td></tr>
 
-                                 {% endfor %}
+                                 <tr class="row1"> <td  id={{ alerte_local_state }}>{{ local_state }}</td><td id={{ alerte_local_state }}>{{ local_state_val }}</td><td id={{ alerte_local_state }}><img height="20px" height="80px"  src={{ img_local_state }}></td></tr>
+                                 <tr class="row2"> <td  id={{ alerte_comment }}>{{ local_comment }}</td><td id={{ alerte_comment }}>{{ local_comment_val }}</td><td id={{ alerte_comment }}><img height="20px" height="80px"  src={{ img_comment }}></td></tr>
+                                <tr class="row1"> <td  id={{ alerte_size }}>{{ wsrep_cluster_size }}</td><td id={{ alerte_size }}>{{  wsrep_cluster_size_val }}</td><td id={{ alerte_size }}><img height="20px" height="80px" src={{ img_size }}></td></tr>
+                                <tr class="row2"> <td  id={{ alerte_open}}>{{ wsrep_ready }}</td><td id={{ alerte_open }}>{{  wsrep_ready_val }}</td><td id={{ alerte_open }}><img height="20px" height="80px" src={{ img_open }}></td></tr>
+
+
                               </table>
 						</div>
 					</section>{% endblock %}
