@@ -1,6 +1,7 @@
 __author__ = 'pincemail'
 
 import re
+import os
 import sys
 from pymongo import MongoClient, ReadPreference
 import pymongo
@@ -12,6 +13,7 @@ master_node = "docker-2"
 database = "test2"
 admin_user = "belisarius"
 admin_passwd = "digitalaxaxx"
+f = open(os.devnull, 'w')
 
 mongod_port = 27017
 mongos_port = 27018
@@ -23,7 +25,7 @@ uri_mongos = master_node +":"+str(mongos_port)
 try:
     mongos = MongoClient(uri_mongos,read_preference=ReadPreference.SECONDARY)
     mongod = MongoClient(uri_mongod ,read_preference=ReadPreference.SECONDARY)
-    sys.stdout = None
+    sys.stdout = f
 
 except pymongo.errors.ConnectionFailure ,e:
     sys.stderr.write("Connection %s failed: " % e)
