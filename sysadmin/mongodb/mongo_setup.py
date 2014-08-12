@@ -9,6 +9,7 @@ _id = ""
 host = ""
 members = ""
 master_node = "docker-2"
+database = "test2"
 admin_user = "belisarius"
 admin_passwd = "digitalaxaxx"
 
@@ -20,8 +21,8 @@ uri_mongos = master_node +":"+str(mongos_port)
 
 #Connection to mongos and mongod
 try:
-    s = MongoClient(uri_mongos,read_preference=ReadPreference.SECONDARY)
-    d = MongoClient(uri_mongod ,read_preference=ReadPreference.SECONDARY)
+    mongos = MongoClient(uri_mongos,read_preference=ReadPreference.SECONDARY)
+    mongod = MongoClient(uri_mongod ,read_preference=ReadPreference.SECONDARY)
 #    s.admin.authenticate(admin_user,admin_passwd)
 except pymongo.errors.ConnectionFailure ,e:
     sys.stderr.write("Connection %s failed: " % e)
@@ -30,9 +31,9 @@ except pymongo.errors.ConnectionFailure ,e:
 
 try:
         #Enable the sharding for a database
-        s.admin.command( "enableSharding" ,'test2')
+        mongos.admin.command( "enableSharding" ,database)
         #add nodes to the shard
-        s.admin.command('addShard' , "docker-1:27017" , "docker-2:27017" ,"docker-3:27017")
+        mongos.admin.command('addShard' , "docker-1:27017" , "docker-2:27017" ,"docker-3:27017")
         #initiate Sharding
         config = {_id: 'rs0', members: [
         {_id: 0, host: 'docker-1:27017'},
@@ -40,7 +41,7 @@ try:
         {_id: 2, host: 'docker-3:27017'}]
         }
 
-        d.admin.command("replSetInitiate" , config)
+        mongod.admin.command("replSetInitiate" , config)
 
 except pymongo.errors.OperationFailure ,e:
         sys.stderr.write("Operation %s" % e)
@@ -64,7 +65,7 @@ try:
         {_id: 2, host: 'docker-3:27017'}]
         }
 
-        d.admin.command("replSetInitiate" , config)
+        mongod.admin.command("replSetInitiate" , config)
 
 except pymongo.errors.OperationFailure, e:
         #sys.stderr.write("Connection %s failed: " % e)
