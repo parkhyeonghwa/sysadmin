@@ -25,12 +25,12 @@ uri_mongos = master_node +":"+str(mongos_port)
 try:
     mongos = MongoClient(uri_mongos,read_preference=ReadPreference.SECONDARY)
     mongod = MongoClient(uri_mongod ,read_preference=ReadPreference.SECONDARY)
-    sys.stdout = f
+
 
 except pymongo.errors.ConnectionFailure ,e:
     sys.stderr.write("Connection %s failed: " % e)
     sys.exit(1)
-
+sys.stdout = f
 
 try:
         #Enable the sharding for a database
