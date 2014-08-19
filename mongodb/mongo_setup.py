@@ -9,9 +9,9 @@ import pymongo
 _id = ""
 host = ""
 members = ""
-database = "test2"
-admin_user = "belisarius"
-admin_passwd = "digitalaxaxx"
+database = "xxx"
+admin_user = "xxxxxxxx"
+admin_passwd = "xxxxxxxx"
 replicaset  = "rs0"
 mongod_port = 27017
 mongos_port = 27018
