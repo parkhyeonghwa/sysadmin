@@ -1,4 +1,0 @@
-sysadmin
-========
-
-script sysadmin

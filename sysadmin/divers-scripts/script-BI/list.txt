@@ -1,4 +1,0 @@
-/var/lib/mysql/sandboxes/multi_msb_5_5_13/node2/data/HISTORIC_PBX_FR.txt
-/var/lib/mysql/sandboxes/multi_msb_5_5_13/node2/data/CUSTOMER_PBX_ORDER_FR.txt
-/var/lib/mysql/msb_5_5_13/data/CUSTOMER_PBX_ORDER_UK.txt
-/var/lib/mysql/msb_5_5_13/data/HISTORIC_PBX_UK.txt
